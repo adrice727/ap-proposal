@@ -13,7 +13,7 @@
                       
             this.options.compListeners = Object.assign({}, comp1.getListeners(), comp2.getListeners());
             
-            AP.init(options);
+            let AP = new AP(options);
              
         }
     }
