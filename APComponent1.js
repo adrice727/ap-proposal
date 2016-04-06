@@ -1,6 +1,14 @@
 /*eslint-env es6 */
 (() => {
-
+    
+    const createdHandler = event => {
+        //handle event
+    };
+    
+    const destroyedHandler = event => {
+        //handle event
+    };
+    
     class Comp1 {
         constructor(options) {
             this.options = options

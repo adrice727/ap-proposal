@@ -1,5 +1,9 @@
 /*eslint-env es6 */
 (() => {
+    
+    const messageReceivedHandler = event => {
+        // handle event
+    };
 
     class Comp2 {
         constructor(options) {
